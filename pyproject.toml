@@ -1,3 +1,24 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "climasmart"
+version = "0.1.0"
+description = "A smart climate analysis tool"
+authors = [
+    { name="Tadele Melese", email="you@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/tadele-melese/climasmart"
+Repository = "https://github.com/tadele-melese/climasmart"
