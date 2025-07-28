@@ -7,7 +7,7 @@ name = "climasmart"
 version = "0.1.0"
 description = "A smart climate analysis tool"
 authors = [
-    { name="Tadele Melese", email="you@example.com" }
+    { name="Tadele Melese", email="tadelemelese21m@gmail.com" }
 ]
 license = { text = "MIT" }
 readme = "README.md"
