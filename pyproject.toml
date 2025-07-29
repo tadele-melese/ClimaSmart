@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "climasmart"
-version = "0.1.1"
+version = "0.1.2"
 description = "A smart climate analysis tool"
 authors = [
     { name = "Tadele Melese", email = "tadelemelese21m@gmail.com" }

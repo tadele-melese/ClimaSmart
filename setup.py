@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='climasmart',
-    version='0.1.1',
+    version='0.1.2',
     description='ClimaSmart: A Climate Monitoring Toolkit with SPI, SPEI, VCI, LSTM Forecasting, and GEE Support',
     author='Tadele Melese',
     author_email='tadelemelese21m@gmail.com',
