@@ -6,7 +6,7 @@ from .utils import (
     climate_dashboard,
 )
 from .climate_normal import compute_climate_normal
-from .climate_anomaly import compute_anomaly
+from .climate_anomaly import compute_anomalies
 from .climate_trend import compute_trend, mann_kendall_test
 from .climate_utils_io import read_climate_data, write_climate_data
 from .climate_metrics import rmse, r2_score, nse
@@ -26,7 +26,7 @@ __all__ = [
 
     # Climate Normal & Anomaly
     "compute_climate_normal",
-    "compute_anomaly",
+    "compute_anomalies",
 
     # Trend Analysis
     "compute_trend",
