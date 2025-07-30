@@ -1,11 +1,11 @@
-from .detect_anomaly import detect_anomalies
+from .detect_anomaly import detect_anomaly
 from .forecast import LSTMForecaster, forecast_lstm
 from .forecast_transformer import TransformerForecaster, forecast_transformer
 from .drought_event_detector import detect_drought_events
 from .explainability import explain_model_predictions
 
 __all__ = [
-    "detect_anomalies",
+    "detect_anomaly",
     "LSTMForecaster",
     "forecast_lstm",
     "TransformerForecaster",
