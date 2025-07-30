@@ -74,7 +74,7 @@ from .tests.test_region import *
 # ===Visualization ===
 from .visualize.interactive_dashboard import *
 from .visualize.plot_anomaly_map import *
-from .visualize.plot_composit_map import *
+from .visualize.plot_composite_map import *
 from .visualize.plot_drought_events import *
 from .visualize.plot_forecast import *
 from .visualize.plot_heatmap import *
