@@ -7,7 +7,7 @@ from .spi import compute_spi
 from .spei import compute_spei
 from .vci import compute_vci
 from .pdsi import compute_mock_pdsi
-from .scpdsi import compute_scpdsi
+#from .scpdsi import compute_scpdsi
 from .eddi import compute_eddi
 from .ndvi_anomaly import compute_ndvi_anomaly
 from .fwi import compute_fwi
@@ -18,7 +18,7 @@ __all__ = [
     "compute_spei",
     "compute_vci",
     "compute_mock_pdsi",
-    "compute_scpdsi",
+    #"compute_scpdsi",
     "compute_eddi",
     "compute_ndvi_anomaly",
     "compute_fwi",
